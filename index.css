@@ -42,11 +42,12 @@ div {
   transition: transform.2s;
 }
 
-.card .flip{
+.card.flip{
   transform: rotateX(180deg);
-  /* transition: transform.2s; */
+  transition: transform.2s;
 }
 
-/* .front{
+.front{
   transform: rotateX(180deg);
-} */
+  transition: transform.2s;
+}
